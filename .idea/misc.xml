@@ -15,6 +15,13 @@
         <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/karaf-rest-example-client/pom.xml" />
+        <option value="$PROJECT_DIR$/karaf-rest-example-scr/pom.xml" />
+        <option value="$PROJECT_DIR$/karaf-rest-example-whiteboard/pom.xml" />
+      </set>
+    </option>
   </component>
   <component name="ProjectRootManager" version="2" project-jdk-name="15" project-jdk-type="JavaSDK" />
 </project>

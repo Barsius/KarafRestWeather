@@ -32,15 +32,6 @@
         </cxf:features>
     </cxf:bus>
 
-    <jaxrs:server id="bookingRest" address="/booking">
-        <jaxrs:serviceBeans>
-            <ref component-id="bookingBean" />
-        </jaxrs:serviceBeans>
-        <jaxrs:providers>
-            <bean class="com.fasterxml.jackson.jaxrs.json.JacksonJsonProvider"/>
-        </jaxrs:providers>
-    </jaxrs:server>
-
     <jaxrs:server id="weatherRest" address="/weather">
         <jaxrs:serviceBeans>
             <ref component-id="weatherBean" />
@@ -50,7 +41,6 @@
         </jaxrs:providers>
     </jaxrs:server>
 
-    <bean id="bookingBean" class="org.apache.karaf.examples.rest.blueprint.BookingServiceRest"/>
     <bean id="weatherBean" class="org.apache.karaf.examples.rest.blueprint.WeatherServiceRest"/>
 
 </blueprint>

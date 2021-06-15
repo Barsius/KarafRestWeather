@@ -1,4 +1,2 @@
-org\apache\karaf\examples\rest\api\WeatherService.class
-org\apache\karaf\examples\rest\api\BookingService.class
 org\apache\karaf\examples\rest\api\Weather.class
-org\apache\karaf\examples\rest\api\Booking.class
+org\apache\karaf\examples\rest\api\WeatherService.class

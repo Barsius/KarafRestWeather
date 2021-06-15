@@ -1,0 +1,2 @@
+org\apache\karaf\examples\rest\blueprint\BookingServiceRest.class
+org\apache\karaf\examples\rest\blueprint\WeatherServiceRest.class

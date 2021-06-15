@@ -1,0 +1,3 @@
+org\apache\karaf\examples\rest\client\cxf\ListAllBookingCommand.class
+org\apache\karaf\examples\rest\client\cxf\AddBookingCommand.class
+org\apache\karaf\examples\rest\client\cxf\ListBookingCommand.class

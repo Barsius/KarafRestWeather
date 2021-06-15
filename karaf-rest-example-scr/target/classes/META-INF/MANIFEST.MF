@@ -1,0 +1,26 @@
+Manifest-Version: 1.0
+Build-Jdk: 15.0.1
+Bundle-Description: The Apache Software Foundation provides support for 
+ the Apache community of open-source software projects.    The Apache pr
+ ojects are characterized by a collaborative, consensus based developmen
+ t process, an open and    pragmatic software license, and a desire to c
+ reate high quality software that leads the way in its field.    We cons
+ ider ourselves not simply a group of projects sharing a server, but rat
+ her a community of developers    and users.
+Bundle-DocURL: http://karaf.apache.org/
+Bundle-License: https://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-ManifestVersion: 2
+Bundle-Name: Apache Karaf :: Examples :: REST :: SCR
+Bundle-SymbolicName: org.apache.karaf.examples.karaf-rest-example-scr
+Bundle-Vendor: The Apache Software Foundation
+Bundle-Version: 4.3.2
+Import-Package: com.fasterxml.jackson.jaxrs.json;version="[2.11,3)",java
+ x.ws.rs;version="[2.1,3)",org.apache.cxf;version="[3.4,4)",org.apache.c
+ xf.endpoint;version="[3.4,4)",org.apache.cxf.jaxrs;version="[3.4,4)",or
+ g.apache.cxf.jaxrs.ext.multipart;version="[3.4,4)",org.apache.karaf.exa
+ mples.rest.api;version="[4.3,5)"
+Require-Capability: osgi.extender;filter:="(&(osgi.extender=osgi.compone
+ nt)(version>=1.4.0)(!(version>=2.0.0)))",osgi.ee;filter:="(&(osgi.ee=Ja
+ vaSE)(version=1.8))"
+Service-Component: OSGI-INF/org.apache.karaf.examples.rest.scr.RestServi
+ ce.xml

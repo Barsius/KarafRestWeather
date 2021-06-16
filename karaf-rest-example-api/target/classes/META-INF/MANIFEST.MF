@@ -14,5 +14,7 @@ Bundle-Name: Apache Karaf :: Examples :: REST :: API
 Bundle-SymbolicName: org.apache.karaf.examples.karaf-rest-example-api
 Bundle-Vendor: The Apache Software Foundation
 Bundle-Version: 4.3.2
-Export-Package: org.apache.karaf.examples.rest.api;version="4.3.2"
+Export-Package: org.apache.karaf.examples.rest.api;uses:="javax.ws.rs";v
+ ersion="4.3.2"
+Import-Package: javax.ws.rs;version="[2.1,3)"
 Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"

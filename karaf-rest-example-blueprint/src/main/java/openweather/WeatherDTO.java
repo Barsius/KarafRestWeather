@@ -1,13 +1,12 @@
-package org.apache.karaf.examples.rest.api;
+package openweather;
 
-public class Weather {
+public class WeatherDTO {
     private String name;
 
-    public Weather() {
-
+    public WeatherDTO() {
     }
 
-    public Weather(String name) {
+    public WeatherDTO(String name) {
         this.name = name;
     }
 

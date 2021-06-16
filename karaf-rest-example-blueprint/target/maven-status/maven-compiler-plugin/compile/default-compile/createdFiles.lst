@@ -1,1 +1,3 @@
+openweather\WeatherDTO.class
+openweather\OpenWeatherApi.class
 org\apache\karaf\examples\rest\blueprint\WeatherServiceRest.class
